@@ -3,7 +3,7 @@
 const Hamburger = () => {
   return (
     <div className='hamburger'>
-      <svg
+      <svg 
         width='31'
         height='34'
         viewBox='0 0 31 34'
