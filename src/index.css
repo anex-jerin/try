@@ -1,0 +1,18 @@
+
+:root {
+  --nav-font: 16px;
+  --head-big: 55px;
+  --head-small: 20px;
+  --head-small-l:#E11E25;
+  --head-small-r:#4280C2;
+  --background :#F4F4F4;
+  --phone-back:#DFDFDE;
+  
+}
+
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
