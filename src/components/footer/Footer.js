@@ -1,13 +1,10 @@
 import React from 'react';
 import logo from './logo.png';
-import insta from './insta.png';
-import link from './link.png';
-import face from './face.png';
-import twit from './twit.png';
+import { Icon } from '@iconify/react';
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer' id='contacts'>
       <div className='contacts'>
         <div className='c-first'>
           <a href=''>Home</a>
@@ -29,16 +26,16 @@ const Footer = () => {
         <h6>+971 50 721 9263</h6>
         <div className='f-social'>
           <a href=''>
-            <img src={insta} alt='' />
+            <Icon className='f-ico' icon='uil:facebook-f' />
           </a>
           <a href=''>
-            <img src={link} alt='' />
+            <Icon className='f-ico' icon='ph:instagram-logo-fill' />
           </a>
           <a href=''>
-            <img src={face} alt='' />
+            <Icon className='f-ico' icon='mdi:linkedin' />
           </a>
           <a href=''>
-            <img src={twit} alt='' />
+            <Icon className='f-ico' icon='mdi:twitter' />
           </a>
         </div>
       </div>

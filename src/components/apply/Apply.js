@@ -6,7 +6,7 @@ const Apply = () => {
   const text =
     'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, aperiam quaerat! Rem, optio. Facere, debitis? ';
   return (
-    <div className='apply'>
+    <div className='apply' id='apply'>
       <h2>Apply with us for promising fitness jobs</h2>
       <div className='show'>
         <div className='grid'>

@@ -3,7 +3,7 @@ import image from './image2.jpg'
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <div className='a-left'>
         <h1 className='a-head'>About <span className='red'>GCC Recruitment</span> </h1>
         <p>
