@@ -2,7 +2,7 @@ import React from 'react';
 
 const Employee = () => {
   return (
-    <div className='employee' id='employee'>
+    <div className='h-employee'>
       <div className='photo-div'>
         <div className='img-text'>
           <h1>

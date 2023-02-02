@@ -44,13 +44,13 @@ const Navbar = () => {
           onClick={() => setHamState(true)}
         />
         <div className='menus'>
-          <a href='#about' onClick={() => setHamState(true)}>
+          <a href='/home' onClick={() => setHamState(true)}>
+            Home
+          </a>
+          <a href='/about' onClick={() => setHamState(true)}>
             About
           </a>
-          <a href='#apply' onClick={() => setHamState(true)}>
-            Apply
-          </a>
-          <a href='#employee' onClick={() => setHamState(true)}>
+          <a href='/employee' onClick={() => setHamState(true)}>
             Employee
           </a>
           <a href='#contacts' onClick={() => setHamState(true)}>
