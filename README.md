@@ -1,1 +1,1 @@
-A static website for GCC Gym
+A static website for Gym
